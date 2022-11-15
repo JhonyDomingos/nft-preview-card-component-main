@@ -1,0 +1,154 @@
+/*Font
+**************************************************/ 
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400&display=swap');
+
+/*reset
+**************************************************/
+*{
+    margin: 0;    
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*General Configuration
+**************************************************/
+body {
+    max-width: 1444px;
+    min-width: 375px;
+    min-height: 100vh;
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    background-color: hsl(217, 54%, 11%);
+    color:hsl(0, 0%, 100%, 60%);
+    padding: 1.25rem;
+}
+
+ul {
+    list-style-type: none;
+}
+img {
+    max-width: 100%;
+}
+/* Container configuration
+**************************************************/
+main {    
+    width: 300px;
+    background: hsl(217, 48%, 18%);     
+    padding: 1.25rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 0 1.5rem 0.8rem hsla(0, 0%, 0%, 0.109);
+
+}
+/* NFT CARD AND IMAGES
+**************************************************/
+.main-img {
+  margin-bottom: 1rem; 
+}
+
+main .main-img {
+    position: relative;
+}
+
+main .main-img img {
+    border-radius: 0.5rem;
+}
+
+main ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+    border-bottom: 2px solid hsl(215, 32%, 27%);
+}
+
+main ul li {
+    display: flex;
+    align-items: center;
+}
+
+main ul li:first-child {
+    color: hsl(178, 100%, 50%);
+       
+}
+
+main ul li img {
+    margin: 0 0.5rem 0 0;
+}
+
+main .creator {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-top: 0.8rem ;
+}
+
+main .creator img {
+    width: 2rem;
+    border: 2px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+    margin-right: 0.6rem;
+}
+
+ main .main-img .icon-view {
+    position: absolute;
+    top:0;
+    background-color: hsl(178, 100%, 50%, 55%);
+    width: 100%;
+    height: 99%;
+    z-index: 9999;
+    border-radius: 0.5rem;
+    transition: 0.5s;
+    opacity: 0;
+}
+ main .main-img .icon-view img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+/*TEXTS FORMAT
+**************************************************/
+main h1 {
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+main p {
+    color:hsl(0, 0%, 60%);
+}
+
+main .creator span {
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+}
+/* HOVER EFFECTS
+**************************************************/
+main h1:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+main .creator span:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+main .main-img .icon-view:hover {
+    display: block;
+    opacity: 1;
+    cursor: pointer;
+}
+/*MEDIA QUERY
+*************************/
+@media (min-width:500px) {
+  
+    body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            height: 100vh;
+        }
+}
+
