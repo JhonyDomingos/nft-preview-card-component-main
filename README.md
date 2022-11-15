@@ -43,11 +43,6 @@ Users should be able to:
 ![](/design/active-state-2.jpg)
 ![](/design/active-state-3.jpg)
 
-### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
 # My process
   First I started build the HTML giving the tags Classes the alts, putting everything in order, after, I start build the sytle. 
   I reset the CSS, basic configurations like (Importing the Font-family, font-size, backgrounds), The next thing I did was configure the container and the main image configuration, next step was building configure the UL/LI positioning the img and texts, next step it was positioning the avatar and the name of the creator, giving sim the right color, widths, display, margins and etc..
@@ -79,7 +74,7 @@ Users should be able to:
   color: hsl(212°, 54%, 43%);
   text-align: center;
 }
-
+```
 
 ### Continued development
 I would like to keeping focus on HTML and #CSS, Surely I will learn Javascrip now !!! 
