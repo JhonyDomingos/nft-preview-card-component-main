@@ -109,7 +109,7 @@ main .creator img {
 }
 /*TEXTS FORMAT
 **************************************************/
-main h2 {
+main h1 {
     color: hsl(0, 0%, 100%);
     font-weight: 600;
     font-size: 1.2rem;
@@ -126,7 +126,7 @@ main .creator span {
 }
 /* HOVER EFFECTS
 **************************************************/
-main h2:hover {
+main h1:hover {
     color: hsl(178, 100%, 50%);
     cursor: pointer;
 }
