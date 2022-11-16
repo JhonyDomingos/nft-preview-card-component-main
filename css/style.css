@@ -42,11 +42,11 @@ main {
 }
 /* NFT CARD AND IMAGES
 **************************************************/
-.main-img {
+.equilibrium-img {
   margin-bottom: 1rem; 
 }
 
-main .main-img {
+main .equilibrium-img {
     position: relative;
 }
 
@@ -90,7 +90,7 @@ main .creator img {
     margin-right: 0.6rem;
 }
 
- main .main-img .icon-view {
+ main .equilibrium-img .icon-view {
     position: absolute;
     top:0;
     background-color: hsl(178, 100%, 50%, 55%);
@@ -101,7 +101,7 @@ main .creator img {
     transition: 0.5s;
     opacity: 0;
 }
- main .main-img .icon-view img {
+ main .equilibrium-img .icon-view img {
     position: absolute;
     left: 50%;
     top: 50%;
@@ -135,7 +135,7 @@ main .creator span:hover {
     color: hsl(178, 100%, 50%);
     cursor: pointer;
 }
-main .main-img .icon-view:hover {
+main .equilibrium-img .icon-view:hover {
     display: block;
     opacity: 1;
     cursor: pointer;
